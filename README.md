@@ -16,8 +16,8 @@
 ---
 
 ## 💼 Experience
-**QA Engineer** (May 2020 – Present) grew from an Intern to a Senior
-Led QA efforts for prohects across different platforms. Created documentation, mentored juniors, participated in agile processes, ensured build quality.
+- **QA Engineer** (May 2020 – Present) grew from an Intern to a Senior.
+- Led QA efforts for prohects across different platforms. Created documentation, mentored juniors, participated in agile processes, ensured build quality.
 
 ---
 
