@@ -22,7 +22,7 @@
 ---
 
 ## 🎓 Education
-- 🎓 Sumy National Agrarian University — Bachelor's in IT (2018)
+- 🎓 Sumy National Agrarian University — Bachelor (2018)
 - 🧠 Prometheus Academy — QA Automation with Python
 - 🔧 Currently participating in the real desktop product automation using PyWinAuto
 - 🌍 Designed a [website](https://retro-gaming-store.onrender.com/) for practising QA Auto skills
