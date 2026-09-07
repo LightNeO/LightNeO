@@ -71,7 +71,7 @@ Topics covered and practiced include embedded systems testing, firmware validati
 - Built a Python/pyserial `DeviceDriver` layer with port discovery, UART transport, timeouts, command-response handling, ANSI cleanup and safe resource management.
 - Created pytest regression tests for sensor-history capacity and LED blink timing, including fixtures, cleanup and response assertions.
 
-**ESP32-S3 Wi-Fi Internet Radio — PlatformIO / Arduino**
+[**ESP32-S3 Wi-Fi Internet Radio — PlatformIO / Arduino**](https://github.com/LightNeO/esp-32-internet-radio)
 
 - Built and tested firmware for Wi-Fi audio streaming with MAX98357A I2S amplifier, four GPIO buttons and serial command control.
 - Worked with GPIO pin mapping, `INPUT_PULLUP`, button debouncing, Wi-Fi reconnection, I2S configuration and firmware uploads through PlatformIO.
