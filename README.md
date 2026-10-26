@@ -53,30 +53,6 @@ Currently transitioning into Embedded QA through the **Embedded QA Engineer** co
 - Mentor Junior QA engineers and support onboarding and quality-process improvements.
 - Test AI-integrated products and contribute to the implementation of AI in company processes by creating AI agents and skills for manual testers.
 
-## EMBEDDED QA TRAINING & PRACTICE
-
-### Embedded QA Engineer Course — Robot_Dreams
-**In progress**
-
-Topics covered and practiced include embedded systems testing, firmware validation, hardware/software integration, UART, GPIO, SPI/I2C, Linux CLI, serial-log analysis, peripheral testing, power-cycle/recovery scenarios and negative/boundary testing.
-
-### Embedded QA Practice Projects
-
-**ESP32-S3 DevKitC-1 N16R8**
-
-- Flashed firmware using ESP32-S3 Flash Download Tool and scripted workflows; verified successful programming and UART access at 115200 baud, 8N1.
-- Reviewed a firmware PRD and identified requirement gaps related to input validation, session/logout dependencies and state transitions.
-- Designed manual test cases for authentication and rate limiting, UART CLI commands, sensor telemetry, alarm thresholds, configuration persistence, asynchronous job queue and developer diagnostics.
-- Investigated embedded defects using serial logs and documented reproducible bug reports for invalid numeric input, integer overflow and inconsistent alarm status data.
-- Built a Python/pyserial `DeviceDriver` layer with port discovery, UART transport, timeouts, command-response handling, ANSI cleanup and safe resource management.
-- Created pytest regression tests for sensor-history capacity and LED blink timing, including fixtures, cleanup and response assertions.
-
-[**ESP32-S3 Wi-Fi Internet Radio — PlatformIO / Arduino**](https://github.com/LightNeO/esp-32-internet-radio)
-
-- Built and tested firmware for Wi-Fi audio streaming with MAX98357A I2S amplifier, four GPIO buttons and serial command control.
-- Worked with GPIO pin mapping, `INPUT_PULLUP`, button debouncing, Wi-Fi reconnection, I2S configuration and firmware uploads through PlatformIO.
-- Verified station switching, start/stop, volume control, serial commands and diagnostic logging.
-
 ## ADDITIONAL EXPERIENCE
 
 ### Desktop Test Automation Project — Python / pywinauto
@@ -87,6 +63,32 @@ Topics covered and practiced include embedded systems testing, firmware validati
 - Implement reusable Page Object Model components for desktop UI interactions.
 - Automate functional and regression scenarios and investigate automation failures.
 - Work with real product tasks and contribute to a maintainable test framework.
+
+
+## EMBEDDED QA TRAINING & PRACTICE
+
+### Embedded QA Engineer Course — Robot_Dreams
+**In progress**
+
+Topics covered and practiced include embedded systems testing, firmware validation, hardware/software integration, UART, GPIO, SPI/I2C, Linux CLI, serial-log analysis, peripheral testing, power-cycle/recovery scenarios and negative/boundary testing.
+
+### Embedded QA Practice Projects
+
+[**SENTRY SWM-2 Acceptance Testing — Python / pytest / HIL**](https://github.com/LightNeO/sentry-swm2-acceptance-testing)
+
+- Ran a full acceptance-testing cycle of ESP32-S3 firmware (v2.1.0 stable and v2.3.0 beta): broke the PRD down into 139 atomic
+requirements and created a test plan with risk analysis, 220 test cases with boundary values and a traceability matrix.
+- Built a Python/pytest/pyserial framework with 298 automated tests covering UART commands, states, parameter limits, accounts,
+OTA and security.
+- Set up a hardware-in-the-loop stand: an Arduino Nano button stimulator and a managed Wi-Fi access point on a Linux laptop for
+network-loss and OTA fault-injection scenarios, including rollback with a deliberately broken build.
+- Reported 10 confirmed bugs with logs and security findings, and delivered a GO/NO-GO verdict for the firmware release.
+
+[**ESP32-S3 Wi-Fi Internet Radio — PlatformIO / Arduino**](https://github.com/LightNeO/esp-32-internet-radio)
+
+- Built and tested firmware for Wi-Fi audio streaming with MAX98357A I2S amplifier, four GPIO buttons and serial command control.
+- Worked with GPIO pin mapping, `INPUT_PULLUP`, button debouncing, Wi-Fi reconnection, I2S configuration and firmware uploads through PlatformIO.
+- Verified station switching, start/stop, volume control, serial commands and diagnostic logging.
 
 ## EDUCATION
 
